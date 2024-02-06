@@ -46,7 +46,8 @@
     <link rel="manifest" href="/images/brand/site.webmanifest" />
 
     <!-- External CSS file for styling -->
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/styles/landingPage.css" />
 
     <!-- Favicon for your website -->
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
@@ -64,22 +65,55 @@
   <body>
     <!-- Header section -->
     <header>
-      <h1>Teamwork Construction Services, Inc.</h1>
-      <p>Your trusted partner in construction services</p>
+      <nav>
+        <a href="/">
+          <img src="/images//brand/Teamwork_Logo.svg" alt="Logo" />
+        </a>
+
+        <div>
+          <a href="#">About Us</a>
+          <a href="#">Services</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </nav>
     </header>
 
-    <!-- Navigation menu -->
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about-us.html">About Us</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact-us.html">Contact Us</a></li>
-      </ul>
-    </nav>
-
     <!-- Main content section -->
-    <main></main>
+    <main>
+      <!-- Hero section -->
+      <div class="hero">
+        <div class="hero-content">
+          <h1>Crafting Excellence in Civil Construction</h1>
+          <p>
+            From Concrete Foundations to Seamless Finish – Your Vision, Our
+            Expertise, United in Teamwork
+          </p>
+
+          <!-- buttons -->
+          <div class="hero-buttons">
+            <a href="/about-us.html">
+              <button class="normal-button">About Us</button>
+            </a>
+            <a href="/contact-us.html">
+              <button class="outline-button">Reach Us</button>
+            </a>
+          </div>
+
+          <!-- scroll down -->
+          <div class="scroll-down">
+            <img
+              src="/images//brand/ScrollDown.svg"
+              alt="ScrollDown"
+              width="40"
+              height="50"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Summary Section -->
+      <div class="summary"></div>
+    </main>
 
     <!-- Footer section -->
     <footer>

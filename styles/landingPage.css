@@ -1,0 +1,61 @@
+/* Hero section styles */
+.hero {
+  background: url("/images/assests/LP_BG.png") center/cover no-repeat fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  overflow: hidden; /* Added to prevent scrollbars */
+}
+
+.hero-content {
+  max-width: 850px;
+  text-align: center;
+}
+
+.hero h1 {
+  margin-bottom: 20px;
+}
+
+.hero p {
+  margin: 0px 10rem 30px 10rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero-buttons .normal-button {
+  border: 1px solid white;
+  color: var(--text-color-black);
+  background-color: var(--text-color-white);
+}
+
+.hero-buttons .normal-button:hover {
+  border: 1px solid var(--secondary-color);
+  color: var(--text-color-black);
+  background-color: var(--secondary-color);
+  transition: border 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+}
+
+.hero-buttons .outline-button {
+  border: 1px solid white;
+  color: var(--text-color-white);
+  background-color: transparent;
+  transition: border 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+}
+
+.hero-buttons .outline-button:hover {
+  border: 1px solid white;
+  color: var(--text-color-black);
+  background-color: var(--text-color-white);
+}

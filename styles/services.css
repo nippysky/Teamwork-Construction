@@ -1,0 +1,36 @@
+.hero-services {
+  background: url("/images/assests/Services_BG.png") center/cover no-repeat
+    fixed;
+}
+
+.services-layout {
+  padding: 4rem;
+  background: var(--text-color-white);
+}
+
+.card-container {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card-container div {
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: var(--primary-color);
+  width: 25%;
+  transition: all 0.3s ease;
+  color: var(--text-color-white);
+  flex-grow: 1;
+  margin: 3rem 0px 0px 0px;
+}
+
+.card-container div:hover {
+  background-color: var(--secondary-color);
+  transition: all 0.3s ease;
+  color: var(--primary-color);
+}

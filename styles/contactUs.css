@@ -1,0 +1,39 @@
+.hero-contact-us {
+  background: url("/images/assests/Contact_BG.png") center/cover no-repeat fixed;
+}
+
+/* Hero section styles */
+.hero-contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 4rem;
+  color: white;
+  overflow: hidden; /* Added to prevent scrollbars */
+}
+
+.hero-contact-content {
+  max-width: 850px;
+}
+
+.hero-contact h1 {
+  margin-bottom: 3rem;
+}
+
+.hero-contact p {
+  margin: 0px 15rem 30px 0px;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.hero-contact button {
+  background-color: var(--secondary-color);
+  color: var(--text-color-black);
+  margin-top: 2rem;
+}
+
+.hero-contact button:hover {
+  background-color: var(--text-color-white);
+  color: var(--text-color-black);
+}

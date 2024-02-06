@@ -24,11 +24,13 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   background-color: var(--primary-color);
+  box-sizing: border-box;
 }
 
 h1 {
   font-size: 2.2rem;
   color: var(--secondary-color);
+  line-height: 0%;
 }
 
 p {
@@ -41,6 +43,47 @@ button {
   cursor: pointer;
   border-radius: 0.5rem;
   font-family: "Poppins", sans-serif;
+  border: none;
+  transition: border 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+}
+
+.default-dark-button {
+  background-color: var(--primary-color);
+  color: var(--text-color-white);
+  margin-top: 2rem;
+}
+
+.default-dark-button:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+/* Hero section styles */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  overflow: hidden; /* Added to prevent scrollbars */
+}
+
+.hero-content {
+  max-width: 850px;
+  text-align: center;
+}
+
+.hero h1 {
+  margin-bottom: 3rem;
+}
+
+.hero p {
+  margin: 0px 10rem 30px 10rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
 }
 
 /* Navbar styles */
@@ -87,4 +130,78 @@ nav a:hover {
 .scroll-down img {
   cursor: pointer;
   animation: bounce 3s infinite;
+}
+
+.text-and-image {
+  padding: 4rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  gap: 10rem;
+}
+
+.text-and-image img {
+  width: 550px;
+  height: 350px;
+}
+
+.estimate {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.estimate .gold {
+  width: 50%;
+  background-color: var(--secondary-color);
+  padding: 5rem;
+  text-align: center;
+  color: var(--text-color-black);
+}
+
+.estimate .dark {
+  width: 50%;
+  background-color: var(--primary-color);
+  padding: 5rem;
+  text-align: center;
+  color: var(--secondary-color);
+}
+
+.estimate .gold p,
+.estimate .dark p {
+  font-weight: 500;
+  line-height: 0%;
+  text-align: center;
+}
+.estimate .gold h2,
+.estimate .dark h2 {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 0%;
+  text-align: center;
+}
+
+footer {
+  padding: 6rem 4rem;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.social-icons {
+  width: 33.33%;
+  display: flex;
+  justify-content: end;
+  gap: 2rem;
+}
+
+.social-icons img {
+  width: 20px;
+  height: 20px;
 }

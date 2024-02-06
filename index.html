@@ -62,6 +62,7 @@
 
     <!-- Your custom styles or additional CSS files go here -->
   </head>
+
   <body>
     <!-- Header section -->
     <header>
@@ -71,9 +72,9 @@
         </a>
 
         <div>
-          <a href="#">About Us</a>
-          <a href="#">Services</a>
-          <a href="#">Contact Us</a>
+          <a href="/about-us.html">About Us</a>
+          <a href="/services.html">Services</a>
+          <a href="/contact-us.html">Contact Us</a>
         </div>
       </nav>
     </header>
@@ -81,7 +82,7 @@
     <!-- Main content section -->
     <main>
       <!-- Hero section -->
-      <div class="hero">
+      <section class="hero hero-lp">
         <div class="hero-content">
           <h1>Crafting Excellence in Civil Construction</h1>
           <p>
@@ -109,22 +110,114 @@
             />
           </div>
         </div>
-      </div>
+      </section>
 
       <!-- Summary Section -->
-      <div class="summary"></div>
+      <section class="summary">
+        <!-- estimate -->
+        <div class="estimate">
+          <div class="gold">
+            <p>We Have Over</p>
+            <h2>500+</h2>
+            <p>Projects Completed</p>
+          </div>
+
+          <div class="dark">
+            <p>Total Value Of</p>
+            <h2>$1.5B</h2>
+            <p>Built For Our Clients</p>
+          </div>
+        </div>
+
+        <!-- excerpt -->
+        <div class="excerpt">
+          <p>
+            We are a civil construction firm specializing in civil concrete
+            placement, finish and drainage work. We offer our clients a complete
+            range of construction services.
+          </p>
+
+          <a href="/about-us.html">
+            <button class="default-dark-button">Read more about us</button>
+          </a>
+        </div>
+      </section>
+
+      <!-- What We Offer -->
+      <section class="services">
+        <div class="head-text">
+          <h1>What We Offer</h1>
+          <p>
+            We aim to be the best in we can, and bring out the best in any
+            projects we embark on.
+          </p>
+        </div>
+
+        <div style="display: flex; justify-content: center">
+          <a href="/services.html">
+            <button class="default-dark-button">View all our services</button>
+          </a>
+        </div>
+      </section>
+
+      <!-- Explore Before Footer -->
+      <section
+        class="text-and-image"
+        style="background-color: var(--alt-color)"
+      >
+        <div style="width: 50%">
+          <p style="font-style: italic; font-weight: 500">
+            Explore our comprehensive range of services designed to meet your
+            construction needs. Contact us to discuss how we can bring your
+            vision to fruition.
+          </p>
+
+          <a href="/contact-us.html">
+            <button class="default-dark-button">Send us a mail</button>
+          </a>
+        </div>
+
+        <div style="width: 50%; display: flex; justify-content: end">
+          <img
+            src="/images/assests/ConstructionWorkers.png"
+            alt="Construction Workers"
+          />
+        </div>
+      </section>
     </main>
 
     <!-- Footer section -->
     <footer>
-      <p>
-        &copy; 2024 Teamwork Construction Services, Inc. | All Rights Reserved
-      </p>
+      <div style="color: var(--text-color-white); width: 33.33%">
+        <p>
+          16111 Hollister St,<br />
+          Houston, Texas 77066, US
+        </p>
+
+        <small>Copyright © 2024 Teamwork Construction. </small>
+      </div>
+
+      <div style="width: 33.33%; display: flex; justify-content: center">
+        <img
+          src="/images/brand/Teamwork_Icon.svg"
+          alt="Official Icon"
+          width="100px"
+          height="100px"
+        />
+      </div>
+
+      <div class="social-icons">
+        <a href="#"
+          ><img src="/images/assests/Facebook.svg" alt="facebook"
+        /></a>
+        <a href="#"
+          ><img src="/images/assests/Instagram.svg" alt="instagram"
+        /></a>
+        <a href="#"><img src="/images/assests/X.svg" alt="x" /></a>
+      </div>
     </footer>
 
     <!-- External JavaScript file for interactivity -->
-    <script src="script.js"></script>
-
-    <!-- Your custom scripts or additional JavaScript files go here -->
+    <script src="/script/script.js"></script>
   </body>
 </html>

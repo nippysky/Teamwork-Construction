@@ -57,5 +57,29 @@
 
 .head-text {
   text-align: center;
-  padding: 0rem 20rem;
+  padding: 0rem 15rem;
+}
+
+/* Responsive Styles */
+
+/* Adjust layout for smaller screens */
+@media only screen and (max-width: 600px) {
+  .excerpt {
+    padding: 2rem 1rem;
+  }
+
+  .head-text {
+    padding: 0rem 2rem;
+  }
+}
+
+/* Adjust layout for medium screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .excerpt {
+    padding: 2rem 7rem;
+  }
+
+  .head-text {
+    padding: 0rem 2rem;
+  }
 }

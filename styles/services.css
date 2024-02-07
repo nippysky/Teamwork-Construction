@@ -34,3 +34,37 @@
   transition: all 0.3s ease;
   color: var(--primary-color);
 }
+
+/* Responsive Styles */
+
+/* Adjust layout for smaller screens */
+@media only screen and (max-width: 600px) {
+  .card-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .card-container div {
+    width: 100%;
+    margin: 1rem 0px 0px 0px;
+  }
+}
+
+/* Adjust layout for medium screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .card-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .card-container div {
+    width: 100%;
+    margin: 1rem 0px 0px 0px;
+  }
+}

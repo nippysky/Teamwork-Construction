@@ -24,3 +24,5 @@ function scrollFunction() {
     document.getElementById("scroll-to-top").style.display = "none";
   }
 }
+
+// function for mobile menu

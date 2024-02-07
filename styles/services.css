@@ -39,6 +39,10 @@
 
 /* Adjust layout for smaller screens */
 @media only screen and (max-width: 600px) {
+  .services-layout {
+    padding: 1rem;
+  }
+
   .card-container {
     width: 100%;
     display: flex;
@@ -55,6 +59,10 @@
 
 /* Adjust layout for medium screens */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .services-layout {
+    padding: 2rem;
+  }
+
   .card-container {
     width: 100%;
     display: flex;
@@ -64,7 +72,7 @@
   }
 
   .card-container div {
-    width: 100%;
+    width: 40%;
     margin: 1rem 0px 0px 0px;
   }
 }

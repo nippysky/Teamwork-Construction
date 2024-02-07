@@ -37,3 +37,49 @@
   background-color: var(--text-color-white);
   color: var(--text-color-black);
 }
+
+/* Responsive Styles */
+
+/* Adjust layout for smaller screens */
+@media only screen and (max-width: 600px) {
+  .hero-contact {
+    height: auto;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+
+  .hero-contact h1 {
+    margin-bottom: 1rem;
+  }
+
+  .hero-contact p {
+    margin: 0px 1rem 30px 1rem;
+    font-size: 1rem;
+  }
+
+  .hero-contact-content {
+    max-width: 100%;
+  }
+}
+
+/* Adjust layout for medium screens */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .hero-contact {
+    height: auto;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+
+  .hero-contact h1 {
+    margin-bottom: 1rem;
+  }
+
+  .hero-contact p {
+    margin: 0px 1rem 30px 1rem;
+    font-size: 1rem;
+  }
+
+  .hero-contact-content {
+    max-width: 100%;
+  }
+}

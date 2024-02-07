@@ -26,3 +26,26 @@ function scrollFunction() {
 }
 
 // function for mobile menu
+document.addEventListener("DOMContentLoaded", function () {
+  const mobileMenu = document.querySelector(".mobile-menu");
+  const overlay = document.querySelector(".overlay");
+  const sheet = document.querySelector(".sheet");
+  const closeBtn = document.querySelector(".close-btn");
+
+  mobileMenu.addEventListener("click", function () {
+    overlay.classList.add("active");
+    sheet.classList.add("active");
+  });
+
+  closeBtn.addEventListener("click", function () {
+    overlay.classList.remove("active");
+    sheet.classList.remove("active");
+  });
+
+  overlay.addEventListener("click", function (event) {
+    if (event.target === overlay) {
+      overlay.classList.remove("active");
+      sheet.classList.remove("active");
+    }
+  });
+});

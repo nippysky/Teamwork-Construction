@@ -71,6 +71,10 @@
   .head-text {
     padding: 0rem 2rem;
   }
+
+  .services {
+    padding: 4rem 1rem;
+  }
 }
 
 /* Adjust layout for medium screens */
@@ -81,5 +85,9 @@
 
   .head-text {
     padding: 0rem 2rem;
+  }
+
+  .services {
+    padding: 4rem 2rem;
   }
 }

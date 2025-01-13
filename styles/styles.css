@@ -209,19 +209,21 @@ nav a.active {
   gap: 10rem;
 }
 
-.text-and-image img {
-  width: 550px;
-  height: 350px;
-}
-
 .text-image-desc {
-  width: 50%;
+  width: 30%;
 }
 
 .text-image-pic-div {
-  width: 50%;
+  width: 70%;
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
+  gap: 1rem; /* Add gap between the images */
+}
+
+.text-image-pic-div img {
+  width: calc(50% - 0.5rem); /* Adjust width to fit two images with gap */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 1rem;
 }
 
 .summary {
